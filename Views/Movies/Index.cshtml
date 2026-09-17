@@ -1,10 +1,10 @@
 @model MvcMovie.Models.MovieGenreViewModel
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "My Movies";
 }
 
-<h1>Index</h1>
+<h1>My Movies</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -17,6 +17,17 @@
         </select>
 
         <label>Title: <input type="text" asp-for="SearchString" /></label>
+
+        <label>Year (and newer):
+            <select asp-for="MinYear">
+                <option value="">Any</option>
+                @for (int y = DateTime.Now.Year; y >= 1900; y--)
+                {
+                    <option value="@y">@y</option>
+                }
+            </select>
+        </label>
+
         <input type="submit" value="Filter" />
     </p>
 </form>
