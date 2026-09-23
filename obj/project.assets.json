@@ -6512,11 +6512,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tyrus\\MvcMovie\\MvcMovie.csproj",
+      "projectUniqueName": "C:\\Users\\tyrus\\Documents\\Documents\\BYU Idaho\\CSE325.002 - .NET Software Development\\MvcMovie\\MvcMovie.csproj",
       "projectName": "MvcMovie",
-      "projectPath": "C:\\Users\\tyrus\\MvcMovie\\MvcMovie.csproj",
+      "projectPath": "C:\\Users\\tyrus\\Documents\\Documents\\BYU Idaho\\CSE325.002 - .NET Software Development\\MvcMovie\\MvcMovie.csproj",
       "packagesPath": "C:\\Users\\tyrus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tyrus\\MvcMovie\\obj\\",
+      "outputPath": "C:\\Users\\tyrus\\Documents\\Documents\\BYU Idaho\\CSE325.002 - .NET Software Development\\MvcMovie\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tyrus\\AppData\\Roaming\\NuGet\\NuGet.Config"
